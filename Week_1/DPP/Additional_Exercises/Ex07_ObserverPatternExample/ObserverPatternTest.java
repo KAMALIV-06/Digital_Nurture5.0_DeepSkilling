@@ -1,0 +1,1 @@
+public class ObserverPatternTest{public static void main(String[] a){StockMarket s=new StockMarket(); s.register(new MobileApp()); s.register(new WebApp()); s.setPrice(250.5);}}

@@ -1,0 +1,1 @@
+class StudentController{Student s; StudentView v; StudentController(Student s,StudentView v){this.s=s;this.v=v;} void update(){v.displayStudentDetails(s);}}

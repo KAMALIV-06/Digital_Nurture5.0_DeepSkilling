@@ -1,0 +1,1 @@
+class Gateway{void makePayment(double a){System.out.println("Gateway paid "+a);}}

@@ -1,0 +1,1 @@
+public class AdapterPatternTest{public static void main(String[] a){new GatewayAdapter().processPayment(1000);}}

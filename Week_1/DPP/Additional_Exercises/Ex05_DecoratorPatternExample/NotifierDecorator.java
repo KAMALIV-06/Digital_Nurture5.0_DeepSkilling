@@ -1,0 +1,1 @@
+abstract class NotifierDecorator implements Notifier{Notifier n; NotifierDecorator(Notifier n){this.n=n;}}

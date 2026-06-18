@@ -1,0 +1,1 @@
+import java.util.*; class StockMarket{List<Observer> o=new ArrayList<>(); void register(Observer ob){o.add(ob);} void setPrice(double p){for(Observer x:o)x.update(p);}}

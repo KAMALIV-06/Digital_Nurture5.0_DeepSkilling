@@ -1,0 +1,1 @@
+class GatewayAdapter implements PaymentProcessor{Gateway g=new Gateway();public void processPayment(double a){g.makePayment(a);}}
